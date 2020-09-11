@@ -39,7 +39,9 @@ de coordonnées de la bataille navale.
 - public boolean voisine(Coordonne c) Retourne true si et seulement si this est une coordonnée voisine (verticalement ou horizontalement) de c.
 
 package batailleNavale;
+
 public class Coordonnee implements Comparable<Coordonnee> {
+  
 private int ligne;
 private int colonne;
 public Coordonnee(int ligne, int colonne) {...}
